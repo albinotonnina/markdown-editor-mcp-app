@@ -192,21 +192,35 @@ The `edit_markdown` tool accepts these parameters:
 
 **GitHub Flavored Markdown**:
 
+Tables:
+
 ```markdown
 | Tables    | Are       | Supported |
 |-----------|-----------|-----------|
 | cell 1    | cell 2    | cell 3    |
+```
 
+Task lists:
+
+```markdown
 - [ ] Unchecked task
 - [x] Checked task
+```
 
+Other:
+
+```markdown
 ~~Strikethrough text~~
+```
 
+Fenced code blocks with syntax highlighting:
+
+````markdown
 ```javascript
 // Syntax-highlighted code blocks
 const hello = "world";
 ```
-```
+````
 
 ## MCP Tools Reference
 
